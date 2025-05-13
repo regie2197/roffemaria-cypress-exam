@@ -1,0 +1,25 @@
+{
+  "name": "roffemaria-cypress-exam",
+  "version": "1.0.0",
+  "description": "This is an example Cypress Test Automation Repository for aspiring and experienced testers who wants to have basics to advanced knowledge in Cypress Test Automation Tool",
+  "main": "index.js",
+  "devDependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "cypress": "^14.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "registration-test": "npx cypress run --spec 'cypress/e2e/regression-testing/registration.cy.js' --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regie2197/roffemaria-cypress-exam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/regie2197/roffemaria-cypress-exam/issues"
+  },
+  "homepage": "https://github.com/regie2197/roffemaria-cypress-exam#readme"
+}
